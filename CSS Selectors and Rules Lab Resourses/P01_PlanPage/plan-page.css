@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+body {
+    width: 1180px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    background: url(/P01_PlanPage/images/plan-page.jpg);
+}
+
+section {
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    width: 205px;
+    margin: 80px 20px 0 20px;
+    padding: 15px 20px;
+    background: #262626;
+    border: 5px solid #424242;
+    color: #a1a1a1;
+}
+
+article h1 {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.price {
+    font-size: 3em;
+    font-weight: bold;
+    color: #27dcc4;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+button {
+    margin: 10px 0;
+    padding: 15px 30px;
+    border: none;
+    background: #27dcc4;
+    color: #FFF;
+    font-family: inherit;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ACACAC;
+}
